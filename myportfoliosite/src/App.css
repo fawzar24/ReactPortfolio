@@ -56,8 +56,26 @@
  margin: auto;
 }
 
+/* landing page social links */
 .social-links i {
   color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.projects-grid {
+  display: flex;
+}
+
+/* project social links */
+.social-link {
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+ margin: auto;
+}
+.social-link i {
+  color: blue;
   font-size: 5em;
   padding: 8px;
 }
