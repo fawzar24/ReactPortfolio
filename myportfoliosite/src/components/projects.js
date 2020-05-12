@@ -20,7 +20,7 @@ class Projects extends Component {
                     Tools/languages used: JavaScript, CSS, jQuery, Foundation library
                     </CardText>
                     <CardActions border>
-                    <a  className ="social-link" href="http://google.com" rel="noopener noreferrer" target="_blank">
+                    <a  className ="social-link" href="https://github.com/brakluner/SkillLearningApp" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-github-square" aria-hidden="true"></i>
                     </a>
                     </CardActions>
@@ -41,7 +41,7 @@ class Projects extends Component {
                     Tools/languages used: Express, NodeJS, mySQL database,Travis CI, ProjectBoard
                     </CardText>
                     <CardActions border>
-                    <a  className ="social-link" href="http://google.com" rel="noopener noreferrer" target="_blank">
+                    <a  className ="social-link" href="https://github.com/bjork1/covid-19" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-github-square" aria-hidden="true"></i>
                     </a>
                     </CardActions>
