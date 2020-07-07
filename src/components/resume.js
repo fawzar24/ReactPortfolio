@@ -22,14 +22,18 @@ class Resume extends Component {
                 <h2 style={{paddingTop: '2em'}}>Salahuddin Abdullahi</h2>
                 <h4 style={{color: 'grey'}}>Programmer</h4>
                 <hr style={{borderTop: '3px solid blue', width: '50%'}}/>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                <p>I am a Full Stack Web Developer with a background in BioChemistry but found Joy in programing and writing applications that affect and improve people’s lives. I currently work at Apple as Technical Specialist providing hardware/software support to customers, but I recently decided to earn a Full stack Developer certification from the University of Minnesota.
+
+                    I Effectively combined my creativity and problem solving skills to develop user-friendly applications. I worked with my teammates on projects to develop working and user friendly application with limited time, testing our ingenuity, and effective communication skills.  
+
+                    In my off time I love watching the NBA, working out, and spending time with my family. </p>
                 <hr style={{borderTop: '3px solid blue', width: '50%'}}/>
                 <h5>Address</h5>
                 <p>1255 County Road D Saint Paul, MN 55109</p>
                 <h5>Phone</h5>
                 <p>612-735-1533</p>
                 <h5>Email</h5>
-                <p>abdullahis0709@outlook.com</p>
+                <p>sabdullahi0709@outlook.com</p>
                 <hr style={{borderTop: '3px solid blue', width: '50%'}}/>
 
                </Cell>
@@ -59,6 +63,14 @@ class Resume extends Component {
                             jobName = "Apple"
                             jobDescription = "Techincal specalist"
                             />
+
+                        <Experince
+                            startYear = {2014}
+                            endYear = {"2018"}
+                            jobName = "University of Wisconsin stout technology helpdesk"
+                            jobDescription = "Techincal specalist"
+                            />    
+
                     <hr style={{borderTop: '3px solid white'}}/>
 
                     <h2>Skills</h2>

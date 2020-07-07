@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, CardMenu, IconButton, CardText } from 'react-mdl';
 
 class Projects extends Component {
     constructor(props) {
@@ -56,10 +56,14 @@ class Projects extends Component {
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>AudioMind Application</CardTitle>
                     <CardText>
-                            
+                    AudioMind Is a creative thinkspace which allows artists to upload custom tracks of music and create playlists. With the integration of Spotify, users can conveniently update their playlists and find inspiration for their own creative works.
+                    <hr/>
+                    Tools/languages used: MERN stack 
                     </CardText>
                     <CardActions border>
-                    <Button colored>GitHub</Button>
+                    <a  className ="social-link" href="https://github.com/brakluner/AudioMind" rel="noopener noreferrer" target="_blank">
+                        <i className="fa fa-github-square" aria-hidden="true"></i>
+                    </a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share"/>
