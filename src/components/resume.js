@@ -44,16 +44,16 @@ class Resume extends Component {
                         startYear= {2019}
                         endYear = {2020}
                         schoolName = "University of Minnesota BootCamp"
-                        schoolDescription = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                        schoolDescription = "A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, and ReactJS."
                         />
                     
                     <Education
                         startYear= {2014}
                         endYear = {2018}
                         schoolName = "University of Wiscosin Stout"
-                        schoolDescription = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                        schoolDescription = "Completed a 4 year degree in applied science with knowledge in math, logical computation, chemistry and biology. Developed laboratory techniques like protein assay, western blotting, cell culture, chromatography, and statistics"
                         />
-                    <hr style={{borderTop: '3px solid white'}}/>
+                    <hr style={{borderTop: '5px solid white'}}/>
 
                     <h2>Exprience</h2>
 
@@ -61,17 +61,34 @@ class Resume extends Component {
                             startYear = {2019}
                             endYear = {"current"}
                             jobName = "Apple"
-                            jobDescription = "Techincal specalist"
+                            jobTitle = "Techincal specalist"
+                            jobDescription="
+                            Provide technical support to customer via face to face interaction, 
+                            Ran Diagnostics on varies apple device including iPhones, iPad, Apple Watch etc
+                            Perform repairs on devices when needed
+                            Write thorough notes and procedures on my finding and resolutions 
+                            Use MG to debug issues and log customer information 
+                            Communicate effectively and with empathy on findings with customer
+                            Expected to service 3 customers an hour in a fast paced environment
+                            Developed the ability to multi-task and be organized.
+                            "
                             />
 
                         <Experince
                             startYear = {2014}
                             endYear = {"2018"}
                             jobName = "University of Wisconsin stout technology helpdesk"
-                            jobDescription = "Techincal specalist"
+                            jobTitle = "Technical Support"
+                            jobDescription="
+                            Provide technical support to students on campus 
+                            Provide loaner laptops to individuals 
+                            Assist student backup their data
+                            Install software on devices 
+                            Able to communicate effectively to students about their device
+                            "
                             />    
 
-                    <hr style={{borderTop: '3px solid white'}}/>
+                    <hr style={{borderTop: '5px solid white'}}/>
 
                     <h2>Skills</h2>
                     <Skills
